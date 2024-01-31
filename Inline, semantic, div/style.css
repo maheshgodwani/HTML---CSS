@@ -1,0 +1,13 @@
+h1 {
+    background-color: aqua;
+    color: burlywood;
+    font-size: 30px;
+    text-align: center;
+}
+
+p {
+    background-color: chartreuse;
+    color: chocolate;
+    text-align: justify;
+    font-size: 20px;
+}
