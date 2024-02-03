@@ -1,0 +1,9 @@
+.fix {
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    opacity: 40%;
+}

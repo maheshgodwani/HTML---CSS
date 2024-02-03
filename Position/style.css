@@ -1,0 +1,46 @@
+.relative {
+    height: 400px;
+    width: 400px;
+    background-color: aqua;
+    position: relative;
+}
+
+.abs1 {
+    height: 200px;
+    width: 200px;
+    background-color: chartreuse;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 50px;
+}
+
+.abs2 {
+    height: 200px;
+    width: 200px;
+    background-color: darkgoldenrod;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-radius: 50px;
+}
+
+.abs3 {
+    height: 200px;
+    width: 200px;
+    background-color: cornflowerblue;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border-radius: 50px;
+}
+
+.abs4 {
+    height: 200px;
+    width: 200px;
+    background-color: crimson;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    border-radius: 50px;
+}
