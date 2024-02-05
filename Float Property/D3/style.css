@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+    background-color: cadetblue;
+}
+
+.main {
+    background-color: rgb(72, 54, 236);
+    border: 2px solid black;
+}
+
+.left {
+    height: 200px;
+    width: 25%;
+    border: 2px solid black;
+    float: left;
+    box-sizing: border-box;
+    background-color: bisque;
+    padding: 10px;
+}
+
+.clear {
+    clear: both;
+}
