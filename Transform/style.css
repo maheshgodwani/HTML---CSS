@@ -1,0 +1,79 @@
+.rotate {
+    height: 100px;
+    width: 100px;
+    background-color: coral;
+    transition: height 2s, width 2s, background-color 2s, transform 2s;
+}
+
+.rotate:hover {
+    height: 300px;
+    width: 300px;
+    background-color: brown;
+    transform: rotate(200deg);
+}
+
+.scale {
+    height: 100px;
+    width: 100px;
+    background-color: aquamarine;
+    position: relative;
+    top: 200px;
+    left: 200px;
+    transition: height 2s, width 2s, background-color 2s, transform 2s;
+}
+
+.scale:hover {
+    height: 300px;
+    width: 300px;
+    background-color: blue;
+    transform: scale(2, 2);
+}
+
+.skew {
+    height: 100px;
+    width: 100px;
+    background-color: chartreuse;
+    position: relative;
+    top: 200px;
+    left: 200px;
+    transition: height 2s, width 2s, background-color 2s, transform 2s;
+}
+
+.skew:hover {
+    height: 300px;
+    width: 300px;
+    background-color: chocolate;
+    transform: skew(20deg);
+}
+
+.translate {
+    height: 100px;
+    width: 100px;
+    background-color: cornflowerblue;
+    transition: height 2s, width 2s, background-color 2s, transform 2s;
+}
+
+.translate:hover {
+    height: 300px;
+    width: 300px;
+    background-color: crimson;
+    transform: translate(150px, 100px);
+}
+
+.matrix {
+    height: 100px;
+    width: 100px;
+    background-color: aquamarine;
+    transition: height 2s, width 2s, background-color 2s, transform 2s;
+    position: relative;
+    top: 150px;
+    left: 150px;
+}
+
+.matrix:hover {
+    height: 300px;
+    width: 300px;
+    background-color: blueviolet;
+    transform: matrix(2, 3, 0, 5);
+    border-radius: 20px;
+}
