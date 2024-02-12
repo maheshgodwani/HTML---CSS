@@ -1,0 +1,67 @@
+/*h1 {
+    background-color: aqua;
+    text-align: center;
+}
+
+p {
+    background-color: bisque;
+    font-size: 20px;
+    color: black;
+}
+*/
+
+
+/*
+.heading {
+    background-color: brown;
+    color: aqua;
+    text-align: center;
+}
+
+.prg {
+    background-color: aquamarine;
+    color: blue;
+    font-size: 20px;
+}
+*/
+
+
+/*
+#heading {
+    background-color: #e62b2b;
+    color: blue;
+    text-align: center;
+}
+
+#prg {
+    background-color: #0be05d;
+    color: #b31bb3;
+    font-size: 20px;
+}
+*/
+
+
+/*
+h1,
+p {
+    background-color: rgb(233, 130, 5);
+    color: rgb(40, 37, 182);
+    text-align: justify;
+}
+*/
+
+
+/*
+.heading,
+.prg {
+    background-color: blueviolet;
+    color: burlywood;
+    text-align: justify;
+}
+*/
+
+* {
+    background-color: #0c7be2;
+    color: #0c0c0c;
+    text-align: center;
+}
