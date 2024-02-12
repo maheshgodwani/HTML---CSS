@@ -1,0 +1,14 @@
+.main {
+    height: 100px;
+    width: 100px;
+    background-color: aquamarine;
+    transition: height 3s, width 3s, background-color 3s, border-radius 3s, transform 3s;
+}
+
+.main:hover {
+    height: 200px;
+    width: 200px;
+    border-radius: 150px;
+    background-color: cadetblue;
+    transform: rotate(360deg);
+}
