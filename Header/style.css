@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+}
+
+header {
+    background-color: rgb(212, 143, 52);
+    height: 120px;
+}
+
+header nav a {
+    display: inline;
+    float: left;
+    margin: 10px;
+}
+
+header nav a img {
+    height: 100px;
+    width: 100px;
+}
+
+.menu {
+    float: right;
+}
+
+.menu ul {
+    padding: 0;
+    margin: 0;
+}
+
+.menu ul li {
+    display: inline;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    color: brown;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 39px;
+}
+
+.menu ul li a:hover {
+    color: aliceblue;
+    background-color: rgb(231, 133, 52);
+    transition: 1s;
+    transform: rotate(360deg);
+    border-radius: 30px;
+}
