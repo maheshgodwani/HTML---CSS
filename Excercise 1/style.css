@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+}
+
+header{
+    background-image: url(beachshowcase.jpg);
+    background-repeat: no-repeat;
+    text-align: center;
+    background-size: 100% 100%;
+    padding-top: 15%;
+    padding-bottom: 15%;
+    color: chocolate;
+    background-position: center;
+}
+
+p{
+    padding-bottom: 10px;
+}
+
+.anc{
+    border: 2px solid chocolate;
+    border-radius: 5px;
+    margin: 10px;
+    margin-left: 45%;
+    margin-right: 45%;
+    padding: 5px;
+}
+
+.sec1{
+    background-color: chocolate;
+    color: white;
+    padding: 2%;
+}
+
+.sec2{
+    background-color: white;
+    color: chocolate;
+    padding: 2%;
+}
+
+.div1{
+    background-color: chocolate;
+    color: white;
+    text-align: center;
+    float: left;
+    width: 31.3%;
+    padding: 1%;
+}
+
+.div2{
+    background-color: white;
+    color: chocolate    ;
+    text-align: center;
+    float: left;
+    width: 31.3%;
+    padding: 1%;
+}
+
+.div3{
+    background-color: chocolate;
+    color: white;
+    text-align: center;
+    float: left;
+    width: 31.3%;
+    padding: 1%;
+}
