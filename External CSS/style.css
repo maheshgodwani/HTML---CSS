@@ -1,0 +1,14 @@
+.main{
+	width: 1000px;
+	height: 400px;
+	background: red;
+	font-size: 50px;
+	color: blue;
+	text-align: center;
+}
+ 
+.main:hover{
+	background: green;
+	color: black;
+	height: 300px;
+}
