@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Form</title>
+</head>
+<body>
+	<form>
+		<fieldset>
+			<legend>Enquiry Form</legend>
+		Name:     <input type="text" name="name" placeholder="Enter Your Name" required autofocus value="My Self" readonly /><br><br>
+		Address:  <textarea name="address"  placeholder="Enter Your Address"></textarea><br><br>
+		Gender:   <input type="radio" value="M" name="gender" checked>Male
+				  <input type="radio"  value="F" name="gender">Female
+				  <input type="radio"  value="o" name="gender">Other<br><br>
+
+		 Country:<select>
+		 				<option>Select Country</option>
+				  		<optgroup label="Asia">
+				  		<option>India</option>
+				  		<option>China</option>
+				  		</optgroup>
+				  		<option>US</option>
+				  </select><br><br>
+
+		Hobbise:
+				<input type="checkbox" name="Hobbise[]" checked>Dansing
+				<input type="checkbox" name="Hobbise[]">Singing<br><br>
+
+		Image:
+				<input type="file" name="Image"/><br><br>
+
+
+
+				  <input type="submit" name="submit" value="Submit"/>
+				  <input type="reset" name="reset"/>
+		</fieldset>
+	</form>
+</body>
+</html>
